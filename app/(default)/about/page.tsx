@@ -20,7 +20,7 @@ export default function About(){
 
                 <div className='mt-[10dvh] w-[80%] flex items-center justify-center'>
                     <img
-                        src="/FormalPicture.png"
+                        src="/FormalPicture.PNG"
                         alt="Formal Picture"
                         className='h-[auto] w-[30dvw]' 
                     />
