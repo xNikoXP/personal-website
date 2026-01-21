@@ -19,11 +19,9 @@ export default function About(){
 
 
                 <div className='mt-[10dvh] w-[80%] flex items-center justify-center'>
-                    <Image
+                    <img
                         src="/FormalPicture.png"
                         alt="Formal Picture"
-                        width={1170}
-                        height={1472} 
                         className='h-[auto] w-[30dvw]' 
                     />
                </div>
