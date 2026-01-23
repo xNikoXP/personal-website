@@ -5,15 +5,15 @@ export default function About(){
         <div>
 
 
-            <h1 className='text-[3rem] text-center py-[5dvw] font-bold bg-[#3A283E] text-[#A699BD]'>About Me</h1>
+            <h1 className='text-[12rem] text-center py-[5dvw] font-bold bg-[#3A283E] text-[#A699BD]'>About Me</h1>
+            <h2 className='text-[6em] font-bold text-center my-[5rem]'>Arvi Rivera</h2>
+
+            <div className='flex justify-center items-center  w-[100dvw]'>
 
 
-            <div className='flex flex-col justify-center items-center my-[5dvh] w-[100dvw]'>
-
-
-                <div className='flex flex-col justify-center items-center w-[80%] text-left'>
-                    <h2 className='text-[2em] font-bold'>Arvi Rivera</h2>
-                    <p className='mt-[5dvh] w-[50%] text-[1em]'> &emsp; Hi, my name is Arvi. I am currently a student at Kean University. 
+                <div className='flex flex-col justify-center items-center w-[100%] text-left'>
+                    
+                    <p className='w-[75%] text-[3em]'> &emsp; Hi, my name is Arvi. I am currently a student at Kean University. 
                         My hobbies include, collecting audio equipment, biking, and gaming. It is a pleasure to meet you. <br/> 
                         <br /> &emsp; Currently I am working on three projects. First, I am finishing this website. As you can see
                         the projects tab is currently a work in progress and I am making some design changes to the blog. <br/>
@@ -25,7 +25,7 @@ export default function About(){
                 </div>
 
 
-                <div className='mt-[10dvh] w-[80%] flex items-center justify-center'>
+                <div className='w-[80%] flex items-center justify-center'>
                     <img
                         src="/FormalPicture.PNG"
                         alt="Formal Picture"

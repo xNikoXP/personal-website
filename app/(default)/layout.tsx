@@ -4,8 +4,8 @@ import Image from 'next/image';
 import "../globals.css";
 
 export const metadata = {
-    title: 'Niko\'s Personal Website',
-    description: 'Welcome to Niko\'s personal website where I share my projects, blog posts, and more about myself.',
+    title: 'Arvi\'s Personal Website',
+    description: 'Welcome to Arvi\'s personal website where I share my projects, blog posts, and more about myself.',
 }
 
 export const viewport = {
@@ -19,7 +19,7 @@ export default function RootLayout({
     children : React.ReactNode
 }>){
     return(
-       <html lang="en">
+       <html lang="en" className="text-[0.5dvw]">
             <body className="m-0 p-0">
                 <header className="bg-[#8B7C99] shadow-[0_10px_50px_5px] overflow-x-auto sticky top-0">
                   <Nav/>
@@ -32,7 +32,7 @@ export default function RootLayout({
 
 function Nav(){
   return(
-      <div className="flex flex-row  justify-left min-w-[500px]">
+      <div className="flex flex-row  justify-left">
         <div className="h-[100%] w-[25%] flex justify-left self-center" >
           <Image
             src="/logo.png"
@@ -42,7 +42,7 @@ function Nav(){
             className='w-[75px] h-[75] ml-[10%] '
           />
         </div>
-        <div className="w-[75%] flex flex-row justify-end items-center mr-[1%] ">
+        <div className="w-[75%] flex flex-row justify-end items-center mr-[2dvw] ">
           <Link href="/"><Button title="Home"/></Link>
           <Link href="/projects"><Button title="Projects"/></Link>
           <Link href="/blog"><Button title="Blog"/></Link>
@@ -53,7 +53,7 @@ function Nav(){
 }
 
 function Button({title=""}){
-  const def = "w-[7dvw] min-w-[5rem] h-[2rem] mx-[1dvw] text-[#3a3440] text-[1em] cursor-pointer rounded-[3em] font-bold bg-white";
+  const def = "w-[10dvw] h-[6rem] mx-[1dvw] text-[#3a3440] text-[3em] cursor-pointer rounded-[3rem] font-bold bg-white";
   const active = "active:bg-black active:text-white"
 
   return (
