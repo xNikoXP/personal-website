@@ -18,8 +18,8 @@ export default async function ListBlogPage({ params }: Readonly<{ params: { id: 
 
             {
                 paginatedPosts.map((post: { id: number; title: string}) => (
-                    <div key={post.id} className="flex flex-col justify-center items-center py-[2rem] mb-[1rem] border-y-3">
-                        <a href={`/blog/${post.id}`} className="text-[1.5em] font-bold text-black hover:underline cursor-pointer">{post.title}</a>
+                    <div key={post.id} className="flex flex-col justify-center items-center py-[6dvh] mb-[1rem] border-y-3">
+                        <a href={`/blog/${post.id}`} className="text-[4em] font-bold text-black hover:underline cursor-pointer">{post.title}</a>
                     </div>
                 ))
             }

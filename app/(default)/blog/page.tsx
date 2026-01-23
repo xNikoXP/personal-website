@@ -15,7 +15,7 @@ export default async function Blog(){
 
 
 
-            <h1 className='text-5xl text-center py-[5dvw] font-bold bg-[#3A283E] text-[#A699BD]'>Blog</h1>
+            <h1 className='text-[15rem] text-center py-[2dvw] font-bold bg-[#3A283E] text-[#A699BD]'>Blog</h1>
 
 
 
@@ -25,7 +25,7 @@ export default async function Blog(){
 
                 <Link href={`/blog/${latestPost.id}`}><div className='w-[50dvw] flex flex-col justify-center items-center text-center'>
 
-                    <h1 className='text-[2em] font-bold mb-[20px] cursor-pointer'>{latestPost.title}</h1>
+                    <h1 className='text-[3em] font-bold mb-[20px] cursor-pointer'>{latestPost.title}</h1>
 
                     <Image
                         src={`/blogpictures/${latestPost.coverImgPath}`}
@@ -59,7 +59,7 @@ export default async function Blog(){
             </div>
 
 
-            <div className='flex justify-center items-center mt-[10dvh]'>
+            <div className='flex justify-center items-center mt-[10dvh] mb-[10dvh]'>
                 <Link href={`/blog/list/${1}`}><button className='bg-blue-400 text-white font-bold h-[2rem] w-[6rem] rounded-[1rem] 
                 transition duration-25 cursor-pointer active:bg-blue-900'>View All</button></Link>
             </div>
