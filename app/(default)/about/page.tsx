@@ -8,7 +8,7 @@ export default function About(){
             <h1 className='text-[12rem] text-center py-[5dvw] font-bold bg-[#3A283E] text-[#A699BD]'>About Me</h1>
             <h2 className='text-[6em] font-bold text-center my-[5rem]'>Arvi Rivera</h2>
 
-            <div className='flex justify-center items-center  w-[100dvw]'>
+            <div className='flex justify-center items-center  w-[100dvw] mb-[10rem]'>
 
 
                 <div className='flex flex-col justify-center items-center w-[100%] text-left'>
@@ -25,7 +25,7 @@ export default function About(){
                 </div>
 
 
-                <div className='w-[80%] flex items-center justify-center'>
+                <div className='h-[100%] w-[100%] flex items-start justify-center'>
                     <img
                         src="/FormalPicture.PNG"
                         alt="Formal Picture"

@@ -30,7 +30,7 @@ export default function HomeLayout({
     children: React.ReactNode
 }>) {
     return(
-        <html lang="en">
+        <html lang="en" className='text-[0.5dvw]'>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased m-0 p-0 h-[100dvh]`} >
                 <header className='pt-[2dvh] pb-[3dvh] max-h-[250px] max-w-[100dvw] bg-[#8B7C99] shadow-[0_1dvh_50px_5px]'>
                     <div className='flex justify-center '>
@@ -64,7 +64,7 @@ function Nav(){
 }
 
 function Button({title=""}){
-  const def = "w-[7dvw] min-w-[5rem] h-[2em] mx-[2dvw] text-[#3a3440] text-[1rem] cursor-pointer rounded-[3em] font-bold bg-white";
+  const def = "w-[15dvw] h-[4dvw] mx-[1em] text-[#3a3440] text-[3em] cursor-pointer rounded-[2dvw] font-bold bg-white";
   const active = "active:bg-black active:text-white"
 
   return (
