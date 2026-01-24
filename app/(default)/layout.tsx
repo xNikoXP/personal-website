@@ -44,7 +44,7 @@ function Nav(){
         </div>
         <div className="w-[75%] flex flex-row justify-end items-center mr-[2dvw] ">
           <Link href="/"><Button title="Home"/></Link>
-          <Link href="/projects"><Button title="Projects"/></Link>
+          <Link href="https://github.com/xNikoXP"><Button title="Projects"/></Link>
           <Link href="/blog"><Button title="Blog"/></Link>
           <Link href="/about"><Button title="About"/></Link>
         </div>

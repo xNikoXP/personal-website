@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: 'Niko\'s Personal Website',
-    description: 'Welcome to Niko\'s personal website where I share my projects, blog posts, and more about myself.',
+    title: "Arvi's Personal Website",
+    description: "Welcome to Arvi's personal website where I share my projects, blog posts, and more about myself.",
 }
 
 export const viewport = {
@@ -56,7 +56,7 @@ function Nav(){
   return(
       <div className="flex flex-row  justify-center max-w-[100%]">
         <Link href="/"><Button title="Home"/></Link>
-        <Link href="/projects"><Button title="Projects"/></Link>
+        <Link href="https://github.com/xNikoXP"><Button title="Projects"/></Link>
         <Link href="/blog"><Button title="Blog"/></Link>
         <Link href="/about"><Button title="About"/></Link>
       </div>
